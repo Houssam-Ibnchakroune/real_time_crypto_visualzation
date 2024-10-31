@@ -77,9 +77,7 @@ This project implements a real-time data pipeline to collect, process, and visua
 
 In Grafana, create panels to visualize metrics like **Current Price**, **Price Change**, and **Percent Change**.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributeurs :
 - [Ibnchakroune Houssam] - Développeur principal
