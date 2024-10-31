@@ -34,23 +34,36 @@ This project implements a real-time data pipeline to collect, process, and visua
 
 ## Usage
 
-1. **Start Kafka**:
+1. **Start zookeper**:
     ```bash
     # In one terminal
-    kafka-server-start.sh /path/to/kafka/config/server.properties
+    .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     ```
-
-2. **Run Producer**: Start the producer script to send data to the Kafka topic.
+    
+2. **Start Kafka-server**:
+   ```bash
+    # In one terminal
+    .\bin\windows\kafka-server-start.bat .\config\server.properties
+    ```
+   
+3. **create the topic**:
+   ```bash
+    # In one terminal
+    .\bin\windows\kafka-topics.bat --create --topic financial_data --bootstrap-server localhost:9092
+    ```
+   
+4. **view list(optional)**:
+    ```bash
+    # In one terminal
+    .\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+    ```
+    
+5. **Run Pipeline**: execute the pipeline script to send data to the Kafka topic and then store it into mysql.
     ```bash
     python producer.py
     ```
-
-3. **Run Consumer**: Run the consumer to process and save data to MySQL.
-    ```bash
-    python consumer.py
-    ```
-
-4. **Visualize in Grafana**:
+    
+6. **Visualize in Grafana**:
     - Start Grafana and connect to MySQL as the data source.
     - Create dashboards for real-time visualization.
 
