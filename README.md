@@ -60,7 +60,7 @@ This project implements a real-time data pipeline to collect, process, and visua
     
 5. **Run Pipeline**: execute the pipeline script to send data to the Kafka topic and then store it into mysql.
     ```bash
-    python producer.py
+    python pipeline.py
     ```
     
 6. **Visualize in Grafana**:
