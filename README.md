@@ -50,7 +50,7 @@ This project implements a real-time data pipeline to collect, process, and visua
    ```bash
     # In one terminal
     .\bin\windows\kafka-topics.bat --create --topic financial_data --bootstrap-server localhost:9092
-    ```
+   ```
    
 4. **view list(optional)**:
     ```bash
