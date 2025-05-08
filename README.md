@@ -84,4 +84,4 @@ In Grafana, create panels to visualize metrics like **Current Price**, **Price C
 
 ---
 
-**Note :** Ce projet est à des fins éducatives et de démonstration. Les résultats obtenus peuvent varier en fonction de la qualité et de la quantité des données extraites.
+**Note :** This project is for educational and demonstration purposes. Results may vary depending on the quality and quantity of extracted data.
