@@ -80,7 +80,7 @@ In Grafana, create panels to visualize metrics like **Current Price**, **Price C
 
 
 ## Contributeurs :
-- [Ibnchakroune Houssam] - Développeur principal
+- [Ibnchakroune Houssam] -  principal Develpper
 
 ---
 
