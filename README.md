@@ -18,8 +18,8 @@ This project implements a real-time data pipeline to collect, process, and visua
 
 1. Clone the repository and navigate to the project folder:
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    git clone https://github.com/yourusername/yourproject.git](https://github.com/Houssam-Ibnchakroune/real_time_crypto_visualzation.git
+    cd real_time_crypto_visualzation
     ```
 
 2. Install dependencies:
