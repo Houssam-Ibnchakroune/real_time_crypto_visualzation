@@ -18,7 +18,7 @@ This project implements a real-time data pipeline to collect, process, and visua
 
 1. Clone the repository and navigate to the project folder:
     ```bash
-    git clone https://github.com/yourusername/yourproject.git](https://github.com/Houssam-Ibnchakroune/real_time_crypto_visualzation.git
+    git clone https://github.com/Houssam-Ibnchakroune/real_time_crypto_visualzation.git
     cd real_time_crypto_visualzation
     ```
 
@@ -80,7 +80,7 @@ In Grafana, create panels to visualize metrics like **Current Price**, **Price C
 
 
 ## Contributeurs :
-- [Ibnchakroune Houssam] -  principal Develpper
+- [Ibnchakroune Houssam](https://github.com/houssam-ibnchakroune) -  principal Develpper
 
 ---
 
